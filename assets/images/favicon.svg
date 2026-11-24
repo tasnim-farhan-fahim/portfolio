@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <g fill="#FFFFFF">
+    
+    <path d="M 16 90 H 46 V 102 H 29 V 115 H 43 V 127 H 29 V 150 H 16 Z" />
+    
+    
+    <path d="M 55 150 L 66 90 H 81 L 92 150 H 79 L 77 137 H 70 L 68 150 Z M 71.5 126 H 75.5 L 73.5 106 Z" />
+    
+    
+    <path d="M 101 90 H 114 V 114 H 126 V 90 H 139 V 150 H 126 V 126 H 114 V 150 H 101 Z" />
+    
+    
+    <circle cx="163" cy="95" r="7.5" />
+    <path d="M 150 110 H 169 V 138 H 178 V 150 H 148 V 138 H 157 V 122 H 150 Z" />
+    
+    
+    <path d="M 187 90 H 200 L 206 116 L 212 90 H 225 V 150 H 213 V 112 L 208 134 H 204 L 199 112 V 150 H 187 Z" />
+  </g>
+</svg>

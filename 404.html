@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found (404) — Tasnim Farhan Fahim</title>
+  <meta name="description" content="The requested page could not be found. Return to the developer portfolio of Tasnim Farhan Fahim.">
+  <meta name="theme-color" content="#FAF9F6">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+  <link rel="apple-touch-icon" href="./assets/images/favicon.svg">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <style>
+    .not-found-wrapper {
+      min-height: calc(100vh - var(--header-height) - 100px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px var(--container-padding);
+      text-align: center;
+    }
+    .not-found-card {
+      max-width: 560px;
+      padding: 56px 40px;
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .not-found-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      background-color: var(--accent-surface);
+      color: var(--accent-highlight);
+      border: 1px solid var(--accent-border);
+    }
+    .not-found-code {
+      font-family: var(--font-mono);
+      font-size: clamp(4.5rem, 8vw, 6.5rem);
+      font-weight: 800;
+      color: var(--accent-primary);
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+    .not-found-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 800;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+    }
+    .not-found-desc {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 440px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Tasnim Farhan Fahim - Return Home">
+        <div class="brand-meta">
+          <span class="brand-name">FAHiM</span>
+        </div>
+      </a>
+
+      <!-- Three-Theme Selector -->
+      <div class="header-actions">
+        <div class="theme-selector" role="radiogroup" aria-label="Website Theme Selection">
+          <button type="button" class="theme-btn is-active" data-theme-value="light" role="radio" aria-checked="true" aria-label="Light Theme" title="Light Theme">
+            <i class="fa-solid fa-sun"></i>
+            <span class="theme-label">Light</span>
+          </button>
+          <button type="button" class="theme-btn" data-theme-value="dark" role="radio" aria-checked="false" aria-label="Dark Theme" title="Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+            <span class="theme-label">Dark</span>
+          </button>
+          <button type="button" class="theme-btn" data-theme-value="barca" role="radio" aria-checked="false" aria-label="Barça Theme" title="Barça Theme">
+            <img src="./assets/images/barca.png" alt=""style="width: 14px; height: 14px; border-radius: 50%;">
+            <span class="theme-label">Barça</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main 404 Area -->
+  <main class="not-found-wrapper">
+    <div class="not-found-card">
+      <span class="not-found-badge">Error 404</span>
+      <div class="not-found-code">404</div>
+      <h1 class="not-found-title">Page Not Found</h1>
+      <p class="not-found-desc">
+        The destination you are looking for does not exist, has been moved, or the link may have been mistyped.
+      </p>
+      <a href="index.html" class="btn btn-primary" style="margin-top: 8px;">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span>Return to Portfolio</span>
+      </a>
+    </div>
+  </main>
+
+  <footer class="site-footer" style="padding: 24px 0; text-align: center;">
+    <div class="container">
+      <div class="footer-credits">&copy; <span id="current-year">2026</span> Tasnim Farhan Fahim &bull; Software Developer</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
